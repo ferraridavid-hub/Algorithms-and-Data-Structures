@@ -3,6 +3,7 @@
 
 #include <cstdlib>
 #include <iostream>
+#include <stdexcept>
 #include <string>
 
 template <typename T> class Singly_Linked_List {
@@ -56,7 +57,9 @@ public:
 
   // pop_back: remove last element of the list
   // return: value stored in removed node
-  T pop_back()
+  T pop_back() {
+
+  }
 
   // push_front: prepend d to the head of the list
   void push_front(T d) {
